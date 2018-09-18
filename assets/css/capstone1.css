@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width:100%;
+	margin: auto;
+	background-color: skyblue; 
+	color: dimgray;
+	height: 100%;
+
+}
+
+header#mainHeader div{
+	height: 100%;
+	width: 50%;
+	float: left;
+
+}
+header#mainHeader > div:last-child > ul{
+	list-style: none;
+	text-align: right;
+	
+
+}
+
+header#mainHeader > div:last-child > ul > li {
+	display: inline;
+	line-height: 10vh;
+	margin-right: 15px;
+
+}
+header#mainHeader > div:last-child > ul > li > a {
+	color: black;
+	text-decoration: none;
+}
