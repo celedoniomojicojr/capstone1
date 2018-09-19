@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content='width=device-width,initial-scale=1.0'>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Weather</title>
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<!-- personalized css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- javascript -->
+	<!-- jquery first then popper then bootstrap js -->
+	<!-- jquery -->
+	<script	src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<!-- popper -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+	<!-- bootsrap.js -->
+	<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.png">
+</head>
+<body>
+	
+		<div class="topnav" id="myTopnav">
+			<a class="active" href="index.html"> <i class="fa fa-fw fa-home"></i>Home</a>
+			<a href="#news"><i class="fa fa-fw fa-newspaper-o"></i>News</a>
+			<a href="#archives"><i class="fa fa-fw fa-archive"></i>Archives</a>
+			<a href="#contact"><i class="fa fa-fw fa-phone"></i>Contact</a>		
+			<a href="#about"><i class="fa fa-fw fa-user"></i>About</a>
+
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
+
+
+
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+		</script>
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container">
+
+				<h1 class="display-4">Weather Weather!</h1>
+				<p class="lead">Let's check the weather's outlook for today!</p>
+				<a href="index.html" class="btn btn-lg btn-success">Go</a>
+			</div>
+		</div>
+
+		<!-- <div class="jumbotron jumbotron-fluid">
+			<div class="container">
+
+				<h1 class="display-4">Weather Weather!</h1>
+				<p class="lead">Let's check the weather's outlook for today!</p>
+				<a href="index.html" class="btn btn-lg btn-success">Go</a>
+			</div>
+
+			<div id="map">
+				<h3>Map</h3>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247139.14697297156!2d120.88055703753301!3d14.567754410201452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8d26026386d%3A0x5fed23daac9278d0!2sMetro+Manila!5e0!3m2!1sen!2sph!4v1537332911032" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+			</div>
+
+
+
+			<div class="container2">
+				<h3>Connect with us on:</h3>		
+				<ul>
+					<li><a href="https://www.facebook.com/noobsoloist"><i class="fa fa-facebook-official"aria-hidden="true"></i></a></li>
+					<li><a href="https://www.instagram.com/mojixs/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/celedonio-mojico-217380170/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				</ul>
+
+			</div>
+			<footer><span><b>All rights reserved &copy; 2018<b></span></footer>
+		</div>
+ -->
+
+
+	
+
+</body>
+</html>
