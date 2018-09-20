@@ -7,7 +7,7 @@ body
 {
 	background-image: url("../img/background.jpeg");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;	
+	background-size:cover;	
 	background-attachment: fixed;
 }
 #jumbotron{	
@@ -27,4 +27,7 @@ body
 .footer{
 	color: white;
 	margin-top: 350px;
+}
+.bg-primary {
+    background-color: #0A1828 !important;
 }
