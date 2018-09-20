@@ -3,29 +3,10 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-.row1{
-	height: 100vh;	
-	background-image: url("../img/background.jpg");
-	text-align: center;
-	opacity: .7;
-	padding-top: 200px;
+.bg-primary {
+    background-color: #0F0202 !important;
 }
-.map{
-	color: white;
-}
-.email{
-	color: white;
-}
-.contact{
-	color: white;
-}
-.addr{
-	color: white;
-}
-.land{
-	color: white;
-
-}
-.email2{
-	color: white;
+body{	
+	background-image: url("../img/contact.jpg");
+	opacity: 1;
 }
