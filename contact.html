@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content='width=device-width,initial-scale=1.0'>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- personalized css -->
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<script	src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<!-- popper -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+	<!-- bootsrap.js -->
+	<script type="text/javascript" src="./js/bootstrap.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
+	<!-- icon navbar -->
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<title>Contact</title>
+</head>
+<body>
+
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" id="navbar">
+		<a class="navbar-brand" class="active"href="landingpage.html"><i class="fa fa-fw fa-desktop"></i> <b>Quirenet</b></a>
+		<!-- End of brand -->		
+		<!-- Start of burger -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+			<span class="navbar-toggler-icon"> </span>
+		</button>
+		<!-- End of burger -->
+		<!-- Nav items -->
+		<div class="collapse navbar-collapse" id="navbar-nav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">					
+					<a class="nav-link"  href="landingpage.html"><i class="fa fa-fw fa-home"></i>Home</a>					
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html"><i class="fa fa-fw fa-user"></i>About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html"><i class="fa fa-fw fa-phone"></i>Contact</a>
+				</li>
+				<li class="nav-item dropdown">					
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-fw fa-wrench"></i>
+						Services
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">PC Rental</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Printing</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Scanning</a>
+					</li>
+				</ul>
+			</div>			
+		</nav>
+		<!-- end of Nav items -->
+		<section class="container">    
+   
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Please Inquire now for promos and Services</p>
+
+      <div class="row row1">
+
+        <div class="col-lg-4">
+          <div><h3 class="map">Map</h3></div>
+         
+          	<div class="embed-responsive embed-responsive-21by9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.6456537992294!2d123.18770431524558!3d13.618440690433895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a18cb83d9e2f7d%3A0x8724633c1d0b5dc3!2sQuirenet!5e0!3m2!1sen!2sph!4v1537408086057" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          	</div>
+          
+        </div>
+
+        <!--Grid column-->
+        <div>
+        <div class="col-md-4">
+        	<div><h3 class="email">Email Us</h3></div>
+          	<form id="contact-form" >
+            <!--Grid row-->
+            <div class="row">
+
+              <!--Grid column-->              
+              <div class="col-md-6">              
+                <div class="md-form mb-0">
+                  <input type="text" id="name" name="name" class="form-control">
+                  <label for="name" class="">Your name</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-6">              
+                <div class="md-form mb-0">
+                  <input type="text" id="email" name="email" class="form-control">
+                  <label for="email" class="">Your email</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-md-12">
+                <div class="md-form mb-0">
+                  <input type="text" id="subject" name="subject" class="form-control">
+                  <label for="subject" class="">Subject</label>
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-12">
+
+                <div class="md-form">
+                  <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                  <label for="message">Your message</label>
+                </div>
+
+              </div>
+            </div>
+            </div>
+            <!--Grid row-->
+
+          </form>
+
+
+
+          <div class="text-center text-md-left">
+            <button type="submit" class="btn">Submit</button>
+          </div>
+          <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-4 text-center">
+        <div><h3 class="contact">Contact Information</h3></div>
+          <ul class="list-unstyled mb-0">
+            <li><i class="fa fa-map-marker fa-2x"></i>
+              <p class="addr">Door 30, Crescini Bldg. CBD 2, Naga City</p>
+            </li>
+
+            <li><i class="fa fa-phone mt-2 fa-2x"></i>
+              <p class="land">+ 01 234 567 89</p>
+            </li>
+
+            <li><i class="fa fa-envelope mt-2 fa-2x"></i>
+              <p class="email2">contact@quirenet.com</p>
+            </li>
+          </ul>
+        </div>
+        
+        <!--Grid column-->
+
+      </div>
+
+    </section>
+		
+		<footer class="footer bg-primary">			
+			</div><h3 class="p-3 mb-0 text-center">All rights reserved &copy; 2018</h3>
+		</footer>
+	</body>
+	</html>
