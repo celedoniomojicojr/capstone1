@@ -1,0 +1,68 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url("../img/aboutbackground.jpeg");
+	background-repeat: none;
+	background-size: cover;
+	color: white;
+}
+h1{
+	color:black;
+	margin-top: 75px;
+	background-color: silver;
+	padding: 3px 3px;
+	text-align: center;	
+}
+.bg-primary {
+    background-color: #0A1828 !important;
+}
+.container{
+	margin-top: 50px;
+}
+.card-body{
+	padding: 20px 20px;
+}
+img{
+	height: 200px;
+	width: 100%;
+}
+div.card-body{
+	background-color: grey;
+}
+.btn-primary {
+    color: white;
+    background-color: green;
+    border-color: black;
+}
+.col-lg-3{
+	border-radius: 10%;
+}
+.card{
+	border:2px solid orange;	
+}
+.navbar-brand b{
+	color:orange;
+
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    line-height: inherit;
+    white-space: nowrap;   
+}
+.orange{
+	color:orange;	
+}
+.pc{
+	background-color: #0A1828 !important;
+	color: white;
+}
+.lalala{
+	background-color: orange;
+}

@@ -17,7 +17,7 @@
 #mission{
 	height: 100%;
 	background-color: #141414;
-	color: #f2f2f2;
+	color: #f2f2f2;	
 }
 #vision{
 	height: 100%;
@@ -26,4 +26,36 @@
 }
 .about-tags{
 	font-weight: bold;
+}
+.bg-primary {
+    background-color: #0A1828 !important;
+}
+p{
+	color: white;
+}
+.navbar-collapse{
+	color: orange;
+}
+.navbar-brand b{
+	color:orange;
+
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    line-height: inherit;
+    white-space: nowrap;   
+}
+.orange{
+    color:orange;   
+}
+.pc{
+    background-color: #0A1828 !important;
+    color: white;
+}
+.lalala{
+    background-color: orange;
 }
