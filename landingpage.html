@@ -1,81 +1,101 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content='width=device-width,initial-scale=1.0'>
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<!-- bootstrap css -->
-	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
-	<!-- personalized css -->
-	<link rel="stylesheet" type="text/css" href="./assets/css/landingpage.css">
-	<!-- jquery -->
-	<script	src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-	<!-- popper -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-
-	<!-- bootsrap.js -->
-	<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
-	<!-- favicon (browser tab icon) -->
-	<link rel="shortcut icon" type="image/x-icon" href="./assets/img/icon.png">
-	<!-- icon navbar -->
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<title>Quirenet</title>
-</head>
-<body>
-	
-	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary" id="navbar">
-		<a class="navbar-brand" class="active"href="landingpage.html"><i class="fa fa-fw fa-desktop"></i> <b>Quirenet</b> <strong>Cafe</strong></a>
-		<!-- End of brand -->		
-		<!-- Start of burger -->
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content='width=device-width,initial-scale=1.0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<!-- bootstrap css -->
+		<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+		<!-- personalized css -->
+		<link rel="stylesheet" type="text/css" href="./assets/css/landing.css">
+		<!-- jquery -->
+		<script	src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+		<!-- popper -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<!-- bootsrap.js -->
+		<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
+		<!-- favicon (browser tab icon) -->
+		<link rel="shortcut icon" type="image/x-icon" href="./assets/img/icon.png">
+		<!-- icon navbar -->
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<title>Quirenet Cafe</title>
+	</head>
+	<body>
+		<nav class="navbar  fixed-top navbar-expand-lg navbar-dark bg-primary" id="navbar">
+			<a class="navbar-brand" class="active"href="landingpage.html"><i class="fa fa-fw fa-desktop"></i><b> Quirenet</b> Cafe</a>
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
 			<span class="navbar-toggler-icon"> </span>
-		</button>
-		<!-- End of burger -->
-		<!-- Nav items -->
-		<div class="collapse navbar-collapse font-weight-bold" id="navbar-nav">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">					
-					<a class="nav-link"  href="landingpage.html"><span class="orange"><i class="fa fa-fw fa-home"></span></i>Home</a>					
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="about.html"><span class="orange"><i class="fa fa-fw fa-user"></span></i>About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="contact.html"><span class="orange"><i class="fa fa-fw fa-phone"></span></i>Contact</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="gallery.html"><span class="orange"><i class="fa fa-fw fa-picture-o"></span></i>Gallery</a>
-				</li>
-				<li class="nav-item dropdown">					
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="orange"><i class="fa fa-fw fa-wrench"></span></i>
-						Services
-					</a>
-					<div class="dropdown-menu lalala" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item pc" href="#"><span class="orange"><i class="fa fa-renren" aria-hidden="true"></span></i> PC Rental</a>	
-						<a class="dropdown-item pc" href="#"><span class="orange"><i class="fa fa-print" aria-hidden="true"></span></i> Printing</a>	
-						<a class="dropdown-item pc" href="#"><span class="orange"><i class="fa fa-print" aria-hidden="true"></span></i> Scanning</a>
+			</button>
+			
+			<div class="collapse navbar-collapse font-weight-bold" id="navbar-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link"  href="home.html"><span class="orange"><i class="fa fa-fw fa-home"></span></i>Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html"><span class="orange"><i class="fa fa-fw fa-user"></span></i>About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html"><span class="orange"><i class="fa fa-fw fa-phone"></span></i>Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html"><span class="orange"><i class="fa fa-fw fa-picture-o"></span></i>Gallery</a>
 					</li>
 				</ul>
-			</div>			
-		</nav>
-		<!-- end of Nav items -->
-		<div id="jumbotron" class="jumbotron jumbotron-fluid">
-			<div class="container">
-				<h1 class="display-4 " style="color: #B54E00;">The next level Internet Cafe in Town</h1>
-				<p class="lead" style="color:#B54E00;"><strong>Lakaaaad Matatag...Normalin! Normalin!</strong></p>
-				<a class="btn btn-outline-primary waves-effect btn-primary btn-lg" href="#" role="button">Learn more</a>
 			</div>
-		</div>
-		<!-- <footer class="footer-container">			
-			</div><h3 class="footer text-center">Quirenet | All rights reserved &copy; 2018</h3>
-		</footer> -->
-		<footer class="footer bg-primary">
-			<p class="p-3 mb-0 text-center"><span class="orange">
-				Quirenet | All rights reserved &copy; 2018</span>			
-			</p>
-			
+		</nav>
+		<header class="showcase">
+			<div class="content">
+				<img src="assets/img/landingbackground.jpeg" class="logo" alt="Qurienet Cafe">
+				<div class="title">
+					<h1>Welcome to Quirenet Cafe</h1>
+				</div>
+				<div class="text">
+					<h5>The next level computer gaming shop in Down Town Naga City</h5>
+				</div>
+			</div>
+		</header>
+		<section class="services">
+			<div class="container grid-3 text-center">
+				<div>
+					<a href=""><i class="fa fa-facebook-official fa-2x"></i></a>
+					<h3>Follow us on facebook</h3>
+				</div>
+				<div>
+					<a href=""><i style="color: #ff0000;" class="fa fa-youtube fa-2x"></i></a>
+					<h3>Follow us on youtube</h3>
+				</div>
+				<div>
+					<a href=""><i class="fa fa-instagram fa-2x"></i></a>
+					<h3>Follow us on instagram</h3>
+				</div>
+			</div>
+		</section>
+		<section class="about bg-light">
+			<div class="container">
+				<div class="grid-2">
+					<div class="center">
+						<span class="orange">
+<i class="fa fa-desktop fa-5x"></span></i>
+					</div>
+					
+					<div class="card text-center" style="width: 15rem;">
+						<img class="card-img-top" src="assets/img/quire.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Quirene Cafe</h5>
+							<p class="card-text">Started on 2015 as a simple and small internet cafe in CBD 2 Naga City, now boast a wide-space area and well-equipped computer rigs for better gaming experience.</p>
+							<a href="home.html" class="btn btn-primary">About Us</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+		</section>
+		<footer class="center bg-dark">
+			<p>Quirenet Cafe &copy; 2018</p>
 		</footer>
-</div><!-- end of container 
-</div>
+		
 	</body>
-	</html>
+</html>
