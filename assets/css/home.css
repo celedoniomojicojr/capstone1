@@ -13,30 +13,7 @@ footer p{
 }
 footer{
 	padding: 2.2rem;
-}
-
-}
- /*screens/iphone 5*/
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-#carouselExampleIndicators{
-	margin-top:6vh;
-}
-}
-
-
-.display-4 {
-    font-size: 50px;
-    font-weight: 300;
-    line-height: 1.2; 
-    color:#B54E00 ;
-   
- }
-
-	
+}	
 .bg-primary {
     background-color: #0A1828 !important;
 }
@@ -70,22 +47,19 @@ footer{
 .navbar{
     padding: 0 0;
 }
-
-
-
-
-}
-/*tablet or ipad*/
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-  	#carouselExampleIndicators{
-	margin-top: 7vh;
-}
-}
-
 #carouselExampleIndicators{
-	margin-top: 8vh;
+    margin-top:45px;
 }
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #carouselExampleIndicators{
+    margin-top:45px;
+}
+.carousel-inner >  img {
+  width:320px;
+  height:360px;
+}
+
 

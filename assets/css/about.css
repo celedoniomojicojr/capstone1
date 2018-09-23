@@ -3,17 +3,7 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-.jumbotron{
-	background-color: #141414;
-	height: 90vh;
-	border-radius: 0;
-}
-#about-landing{
-	color:#f2f2f2;
-	font-size: 5em;
-	padding-top: 20vh;
-	letter-spacing: 5px;
-}
+
 #mission{
 	height: 100%;
 	background-color: #141414;
@@ -24,9 +14,7 @@
 	background-color: #f2f2f2;
 	color: #141414;
 }
-.about-tags{
-	font-weight: bold;
-}
+
 .bg-primary {
     background-color: #0A1828 !important;
 }
@@ -45,7 +33,7 @@ p{
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: inherit;
     white-space: nowrap;   
 }
@@ -55,4 +43,31 @@ p{
 .pc{
     background-color: #0A1828 !important;
     color: white;
+}
+.jumbotron{
+	margin-top: 55px;
+	padding: 0;
+	background-image: url("../img/aboutus.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80vh;
+	background-position: center;
+	width: 100%;
+}
+.lead{
+	color: black;
+	margin-top: 
+}
+.p-5{
+	padding: 1rem;
+	margin-top: 0;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.jumbotron{
+	height: 70vh;
+}
 }
