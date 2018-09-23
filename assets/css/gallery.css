@@ -9,17 +9,11 @@ body{
 	background-size: cover;
 	color: white;
 }
-h1{
-	color:black;
-	margin-top: 75px;
-	background-color: silver;
-	padding: 3px 3px;
-	text-align: center;	
-}
+
 .bg-primary {
     background-color: #0A1828 !important;
 }
-.container{
+.container-fluid{
 	margin-top: 50px;
 }
 .card-body{
@@ -45,21 +39,22 @@ div.card-body{
 }
 .navbar-brand b{
 	color:orange;
-
 }
 .navbar-brand {
     display: inline-block;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: inherit;
     white-space: nowrap;   
 }
 .orange{
 	color:orange;	
 }
-.pc{
-	background-color: #0A1828 !important;
-	color: white;
+.row{
+	margin:5px;
+}
+.col h2{
+	margin-top: 65px;
 }
