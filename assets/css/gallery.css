@@ -58,3 +58,10 @@ div.card-body{
 .col h2{
 	margin-top: 65px;
 }
+footer{
+	bottom: 0;
+	padding: 1.2rem;
+}
+footer p{
+	color: orange;
+}

@@ -8,12 +8,7 @@
 	background:#333;
 	color: #f4f4f4;
 }
-footer p{
-	margin: 0;
-}
-footer{
-	padding: 2.2rem;
-}	
+
 .bg-primary {
     background-color: #0A1828 !important;
 }
@@ -30,9 +25,6 @@ footer{
 	color:orange;
 
 }
-.orange{
-	color:orange;	
-}
 .navbar-toggler-icon {
     display: inline-block;
     width: 1.5em;
@@ -47,19 +39,81 @@ footer{
 .navbar{
     padding: 0 0;
 }
-#carouselExampleIndicators{
-    margin-top:45px;
+.container{
+    margin-top: 45px;
 }
+.banner{
+    height: 50vh;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.row1{
+    background-color: white;
+}
+.row1 h1{
+    color:orange;
+}
+.bot{
+    margin: 0 auto;
+}
+.bot img{
+    height: 150px;
+    width: 150px;
+}
+.orange {
+    color: orange;
+}
+.carousel{
+    height: 300px;
+    width: 300px;
+    margin: 50px auto;
+    
+    background-color: black;
+}
+/*.carousel{
+    height: 300px;
+    width: 300px;
+    margin: 50px auto;
+    
+    background-color: black;
+}
+footer p{
+    margin: 0;
+}
+footer{
+    padding: 2.2rem;
+}
+.container{
+   width: 100%;
+   background-color: grey;
+}
+.banner{    
+    margin-top: 70px;    
+}
+.orange{
+    color:orange;   
+} */
 @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    #carouselExampleIndicators{
-    margin-top:45px;
-}
-.carousel-inner >  img {
-  width:320px;
-  height:360px;
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .carousel{
+        height: 190px;
+        width: 190px;
+        margin-top: 20px;
+    }
+
+  }
+  /* Portrait and Landscape */
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {    
+        
+
+    }
 }
 
 
