@@ -3,6 +3,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+body{
+	background-color: silver;
+}
 
 .bg-dark{
 	background:#333;
@@ -35,6 +38,9 @@
     background-size: 100% 100%;
     border:.5px solid orange;
 }
+.top{
+	background-color: silver;
+}
 
 .navbar{
     padding: 0 0;
@@ -53,7 +59,7 @@
     background-color: white;
 }
 .row1 h1{
-    color:orange;
+    color:black;
 }
 .bot{
     margin: 0 auto;
@@ -71,6 +77,12 @@
     margin: 50px auto;
     
     background-color: black;
+}
+#carouselExampleIndicators{
+    background-image: url("../img/sky.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 /*.carousel{
     height: 300px;
